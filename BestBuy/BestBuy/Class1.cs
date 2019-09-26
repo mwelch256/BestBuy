@@ -9,7 +9,7 @@ public class Product : IProduct
         public string Name { get; set; }
         public double Price { get; set; }
 
-        public double PriceWithTax()
+     // public double PriceWithTax()
         {
             return Price * (Price * 1.1);
         }

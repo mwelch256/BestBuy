@@ -9,7 +9,7 @@ namespace BestBuy
         string Name { get; set; }
         double Price { get; set; }
 
-        double PriceWithTax();
+     // double PriceWithTax();
       
     }
 }
